@@ -10,7 +10,8 @@ Vue.use(ElementUI);
 Vue.config.productionTip = false
 
 import "@/style/app.scss"
-
+//权限判断
+import "./permission.js"
 new Vue({
   router,
   store,
